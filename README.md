@@ -1,156 +1,148 @@
 
 # 👋 Hi, I'm **ARIF BILLAH**
 
-### 🛡️ Cyber Security Engineer · Full-Stack Developer · Security Researcher
+### 🛡️ Cybersecurity Engineer · Full-Stack Developer · Security Researcher
 
 <p align="left">
   <a href="https://arifbillah.me/">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-arifbillah.me-00D9FF?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Portfolio-arifbillah.me-00D9FF?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="mailto:arif.official@myyahoo.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-FF4B4B?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact_Me-FF4B4B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
 > **Building secure systems. Developing scalable applications. Exploring the future of cybersecurity.**
 
-I'm a **Cyber Security Engineer and Full-Stack Developer** focused on building secure, scalable, and user-friendly digital solutions.
+I'm a **Cybersecurity Engineer and Full-Stack Developer** interested in building secure, scalable, and user-friendly digital solutions.
 
-My interests span **penetration testing, network security, vulnerability assessment, secure coding, cloud security, threat hunting, and full-stack development**.
+My interests include **penetration testing, network security, vulnerability assessment, secure coding, cloud security, threat hunting, and full-stack development**.
 
-I enjoy working at the intersection of **development × cybersecurity**, where applications are designed with security from the ground up.
+I enjoy combining **software development and cybersecurity** to build applications with security in mind from the beginning.
 
 ---
 
 ## 🌐 Connect With Me
 
 <p align="left">
-<a href="https://arifbillah.me/">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white"/>
-</a>
-<a href="https://linkedin.com/in/arif-billah-0a2407290">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://github.com/Cyberexpert999">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://facebook.com/Gold.Billah999">
-<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-</a>
-<a href="https://instagram.com/abmarif.me">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-<a href="https://x.com/csarif99">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
+  <a href="https://arifbillah.me/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://linkedin.com/in/arif-billah-0a2407290">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Cyberexpert999">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://facebook.com/Gold.Billah999">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+  </a>
+  <a href="https://instagram.com/abmarif.me">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="https://x.com/csarif99">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+  </a>
 </p>
 
 ---
 
-# 🛡️ Cybersecurity
+## 🛡️ Cybersecurity
 
-* 🔎 Penetration Testing & Vulnerability Assessment
-* 🌐 Network Security & Traffic Analysis
-* 🕵️ OSINT & Reconnaissance
-* 🚨 Threat Hunting & Incident Response
-* 🦠 Malware & Security Analysis
-* 🔐 Secure Coding & Application Security
-* ☁️ Cloud Security
-* 🔑 Identity & Access Management
-* 📡 Network Scanning & Enumeration
-* 🧪 Security Testing & Automation
+- 🔎 Penetration Testing & Vulnerability Assessment
+- 🌐 Network Security & Traffic Analysis
+- 🕵️ OSINT & Reconnaissance
+- 🚨 Threat Hunting & Incident Response
+- 🦠 Malware & Security Analysis
+- 🔐 Secure Coding & Application Security
+- ☁️ Cloud Security
+- 🔑 Identity & Access Management
+- 📡 Network Scanning & Enumeration
+- 🧪 Security Testing & Automation
 
 ### Security Tools
 
 <p align="left">
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/Nmap-004170?style=for-the-badge" alt="Nmap"/>
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge" alt="Burp Suite"/>
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge" alt="Metasploit"/>
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
 </p>
 
 ---
 
-# 💻 Development
+## 💻 Development
 
 ### Languages
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,ts,html,css,php"/>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,ts,html,css,php" alt="Programming Languages"/>
 </p>
 
 ### Frontend
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=react,nextjs,angular,jquery"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,angular,jquery" alt="Frontend Technologies"/>
 </p>
 
 ### Backend
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi" alt="Backend Technologies"/>
 </p>
 
 ### Databases
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,postgres"/>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,postgres" alt="Databases"/>
 </p>
 
 ### Cloud & DevOps
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=aws,vercel,netlify,docker,git,github,gitlab"/>
+  <img src="https://skillicons.dev/icons?i=aws,vercel,netlify,docker,git,github,gitlab" alt="Cloud and DevOps"/>
 </p>
 
 ### Data & AI
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=python,pytorch"/>
+  <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch"/>
 </p>
 
 <p align="left">
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white"/>
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly"/>
 </p>
 
 ---
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 
 ### 🛡️ X-Force Threat Monitor
 
-Real-time cybersecurity dashboard for visualizing global threat intelligence, attack patterns, threat types, and geographical distribution.
+A cybersecurity dashboard for visualizing threat intelligence, attack patterns, threat categories, and geographical distributions.
 
 **Tech:** React · JavaScript · D3.js · IBM X-Force API
 
----
-
 ### 🌐 Network Traffic Analysis
 
-Deep packet inspection and DNS security analysis using Wireshark and Quad9.
+Network traffic inspection and DNS security analysis using packet analysis tools.
 
 **Tech:** Wireshark · DNS · Network Security · Windows
 
----
-
 ### 🔎 Network Security Scanner
 
-Network discovery and vulnerability assessment platform based on Nmap/Zenmap.
+A network discovery and vulnerability assessment project using Nmap/Zenmap.
 
 **Tech:** Python · Bash · Nmap · Vulnerability Assessment
 
----
-
-
-
 ### 🔐 Footprinting & Reconnaissance Framework
 
-OSINT and ethical reconnaissance framework for information gathering, DNS enumeration, subdomain discovery, network scanning, and automated reporting.
+An OSINT and reconnaissance project for information gathering, DNS enumeration, subdomain discovery, network scanning, and reporting.
 
 **Tech:** Python · OSINT · Nmap · DNS · Ethical Hacking
 
@@ -159,25 +151,21 @@ OSINT and ethical reconnaissance framework for information gathering, DNS enumer
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=Cyberexpert999&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=false" height="180"/>
-  <img src="https://github-readme-streak-stats.demolab.com/?user=Cyberexpert999&theme=github-dark-blue&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.shion.dev/api?username=Cyberexpert999&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=false" height="180" alt="GitHub Statistics"/>
+  <img src="https://github-readme-streak-stats.demolab.com/?user=Cyberexpert999&theme=github-dark-blue&hide_border=true" height="180" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Cyberexpert999&theme=github_dark&hide_border=true&layout=compact&include_all_commits=true&count_private=false" height="180"/>
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Cyberexpert999&theme=github_dark&hide_border=true&layout=compact&include_all_commits=true&count_private=false" height="180" alt="Most Used Languages"/>
 </p>
 
 ---
 
-# 🐍 Let's Play!
+## 🐍 Let's Play!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
+  <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" width="100%"/>
 </p>
-
----
-
-
 
 ---
 
@@ -193,14 +181,12 @@ Recon → Identify → Assess → Exploit → Mitigate → Monitor → Improve
 
 ## 📫 Let's Build Something Secure
 
-Whether it's a **secure web application, cybersecurity project, security assessment, automation tool, or innovative software solution** — I'm always interested in building and learning.
+I'm interested in building and learning through secure web applications, cybersecurity projects, security assessments, automation tools, and innovative software solutions.
 
 <p align="center">
   <a href="https://arifbillah.me/">
-    <img src="https://img.shields.io/badge/🚀_Explore_My_Portfolio-00D9FF?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Explore_My_Portfolio-00D9FF?style=for-the-badge&logo=firefox&logoColor=white" alt="Explore My Portfolio"/>
   </a>
 </p>
 
 ---
-
-
