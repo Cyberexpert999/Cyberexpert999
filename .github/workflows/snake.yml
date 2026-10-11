@@ -1,7 +1,7 @@
 
 name: Generate Snake
 
-"on":
+on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -12,15 +12,14 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     steps:
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: Cyberexpert999
           outputs: |
-            "dist/github-contribution-grid-snake.svg?color_snake=00ffff&color_dots=ffffff,b7f7c5,57e389,20b15a,087f3c"
-            "dist/github-contribution-grid-snake-dark.svg?color_snake=00ffff&color_dots=ffffff,b7f7c5,57e389,20b15a,087f3c"
+            dist/github-contribution-grid-snake.svg?color_snake=00ffff&color_dots=ffffff,b7f7c5,57e389,20b15a,087f3c
+            dist/github-contribution-grid-snake-dark.svg?color_snake=00ffff&color_dots=ffffff,b7f7c5,57e389,20b15a,087f3c
 
       - name: Deploy Snake
         uses: crazy-max/ghaction-github-pages@v4
