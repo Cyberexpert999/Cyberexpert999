@@ -1,3 +1,4 @@
+```yaml
 name: Generate Snake
 
 on:
@@ -18,8 +19,8 @@ jobs:
         with:
           github_user_name: Cyberexpert999
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=00ff9c&color_dots=0d1117,102a43,155e75,00b8d9,00ff9c
-            dist/github-contribution-grid-snake-dark.svg?color_snake=00ff9c&color_dots=0d1117,102a43,155e75,00b8d9,00ff9c
+            dist/github-contribution-grid-snake.svg?color_snake=00ff9c&color_dots=6e7681,0e4429,006d32,26a641,39d353
+            dist/github-contribution-grid-snake-dark.svg?color_snake=00ff9c&color_dots=6e7681,0e4429,006d32,26a641,39d353
 
       - name: Deploy Snake
         uses: crazy-max/ghaction-github-pages@v4
@@ -28,3 +29,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
