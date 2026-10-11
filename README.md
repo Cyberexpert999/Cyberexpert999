@@ -171,7 +171,7 @@ OSINT and ethical reconnaissance framework for information gathering, DNS enumer
 # 🐍 Let's Play!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
+ <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake.svg?refresh=1" alt="GitHub Contribution Snake" width="100%"/>
 </p>
 
 ---
@@ -202,5 +202,3 @@ Whether it's a **secure web application, cybersecurity project, security assessm
 
 ---
 
-
- ei tai ki prb acea naki thakelaa chnage korea de
