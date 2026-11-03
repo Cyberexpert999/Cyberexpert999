@@ -146,16 +146,6 @@ OSINT and ethical reconnaissance framework for information gathering, DNS enumer
 
 ---
 
-### 📂 More Public Work
-
-| Project | Stack |
-|---|---|
-| [Gharea Bazar E-Commerce Website](https://github.com/Cyberexpert999/Gharea-Bazar-E-Commerce-Website) | HTML · CSS · JavaScript |
-| [Responsive Banking UI](https://github.com/Cyberexpert999/Responsive-Banking-UI) | HTML · CSS |
-| [GridBoard Admin Dashboard](https://github.com/Cyberexpert999/GridBoard-Admin-Dashboard-with-CSS-Grid) | CSS Grid |
-
----
-
 ## 📊 GitHub Analytics
 
 <p align="center">
