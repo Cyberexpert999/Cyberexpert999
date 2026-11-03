@@ -158,7 +158,7 @@ OSINT and ethical reconnaissance framework for information gathering, DNS enumer
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=Cyberexpert999&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="180"/>
+  <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/stats.svg" height="180"/>
   <img src="https://github-readme-streak-stats.demolab.com/?user=Cyberexpert999&theme=github-dark-blue&hide_border=true" height="180"/>
 </p>
 
@@ -171,7 +171,11 @@ OSINT and ethical reconnaissance framework for information gathering, DNS enumer
 # 🐍 Let's Play!
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake.svg?refresh=1" alt="GitHub Contribution Snake" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake.svg"/>
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  </picture>
 </p>
 
 ---

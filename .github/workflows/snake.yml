@@ -1,32 +1,43 @@
-
 name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
-    paths-ignore:
-      - "dist/**"
 
 permissions:
   contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - name: Generate Snake
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Cyberexpert999
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=00ffff&color_dots=ffffff,b7f7c5,57e389,20b15a,087f3c
-            dist/github-contribution-grid-snake-dark.svg?color_snake=00ffff&color_dots=ffffff,b7f7c5,57e389,20b15a,087f3c
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Deploy Snake
+      - name: Generate Stats
+        run: python scripts/stats.py dist/stats.svg
+        env:
+          GH_USER: Cyberexpert999
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
