@@ -83,7 +83,7 @@ I enjoy working at the intersection of **development × cybersecurity**, where a
 ### Frontend
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=react,nextjs,angular,jquery"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,angular"/>
 </p>
 
 ### Backend
@@ -101,20 +101,13 @@ I enjoy working at the intersection of **development × cybersecurity**, where a
 ### Cloud & DevOps
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=aws,vercel,netlify,docker,git,github,gitlab"/>
+<img src="https://skillicons.dev/icons?i=aws,vercel,docker,git,github"/>
 </p>
 
 ### Data & AI
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=python,pytorch"/>
-</p>
-
-<p align="left">
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white"/>
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=python,pytorch,numpy,pandas"/>
 </p>
 
 ---
@@ -145,8 +138,6 @@ Network discovery and vulnerability assessment platform based on Nmap/Zenmap.
 
 ---
 
-
-
 ### 🔐 Footprinting & Reconnaissance Framework
 
 OSINT and ethical reconnaissance framework for information gathering, DNS enumeration, subdomain discovery, network scanning, and automated reporting.
@@ -155,15 +146,25 @@ OSINT and ethical reconnaissance framework for information gathering, DNS enumer
 
 ---
 
+### 📂 More Public Work
+
+| Project | Stack |
+|---|---|
+| [Gharea Bazar E-Commerce Website](https://github.com/Cyberexpert999/Gharea-Bazar-E-Commerce-Website) | HTML · CSS · JavaScript |
+| [Responsive Banking UI](https://github.com/Cyberexpert999/Responsive-Banking-UI) | HTML · CSS |
+| [GridBoard Admin Dashboard](https://github.com/Cyberexpert999/GridBoard-Admin-Dashboard-with-CSS-Grid) | CSS Grid |
+
+---
+
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/stats.svg" height="180"/>
-  <img src="https://github-readme-streak-stats.demolab.com/?user=Cyberexpert999&theme=github-dark-blue&hide_border=true" height="180"/>
+  <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/stats.svg" height="190" alt="GitHub Stats"/>
+  <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/streak.svg" height="190" alt="Contribution Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Cyberexpert999&theme=github_dark&hide_border=true&layout=compact&include_all_commits=true&count_private=true" height="180"/>
+  <img src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/langs.svg" height="190" alt="Top Languages"/>
 </p>
 
 ---
@@ -177,10 +178,6 @@ OSINT and ethical reconnaissance framework for information gathering, DNS enumer
     <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Cyberexpert999/Cyberexpert999/output/github-contribution-grid-snake-dark.svg" width="100%"/>
   </picture>
 </p>
-
----
-
-
 
 ---
 

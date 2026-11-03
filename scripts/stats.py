@@ -84,7 +84,80 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="550" height="{90 + len(
 <circle cx="480" cy="{45 + len(rows) * 14 + 20}" r="40" fill="none" stroke="#58a6ff" stroke-width="6" stroke-dasharray="200 251" transform="rotate(-90 480 {45 + len(rows) * 14 + 20})"/>
 <text x="480" y="{45 + len(rows) * 14 + 30}" text-anchor="middle" style="font:700 28px 'Segoe UI',Ubuntu,sans-serif;fill:#58a6ff">{level}</text>
 </svg>"""
-os.makedirs(os.path.dirname(OUT), exist_ok=True)
+STYLE = (
+    "<style>.t{font:600 18px 'Segoe UI',Ubuntu,sans-serif;fill:#58a6ff}"
+    ".l{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#c9d1d9}"
+    ".b{font:700 30px 'Segoe UI',Ubuntu,sans-serif;fill:#c9d1d9}"
+    ".s{font:400 12px 'Segoe UI',Ubuntu,sans-serif;fill:#8b949e}</style>"
+)
+FRAME = '<rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#30363d"/>'
+
+cal = gql(
+    """query($u:String!){user(login:$u){contributionsCollection{contributionCalendar{
+    totalContributions weeks{contributionDays{date contributionCount}}}}}}""",
+    {"u": USER},
+)["user"]["contributionsCollection"]["contributionCalendar"]
+days = [d for w in cal["weeks"] for d in w["contributionDays"]]
+today = now.date().isoformat()
+days = [d for d in days if d["date"] <= today]
+longest = run = 0
+for d in days:
+    run = run + 1 if d["contributionCount"] else 0
+    longest = max(longest, run)
+current = 0
+for d in reversed(days):
+    if d["contributionCount"]:
+        current += 1
+    elif d["date"] != today:
+        break
+streak_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="450" height="190" viewBox="0 0 450 190">
+{STYLE}{FRAME}
+<text x="25" y="35" class="t">Contribution Streak</text>
+<text x="75" y="100" text-anchor="middle" class="b">{cal['totalContributions']}</text>
+<text x="75" y="125" text-anchor="middle" class="s">Last 12 months</text>
+<text x="225" y="100" text-anchor="middle" class="b" style="fill:#58a6ff">{current}</text>
+<text x="225" y="125" text-anchor="middle" class="s">Current streak (days)</text>
+<text x="375" y="100" text-anchor="middle" class="b">{longest}</text>
+<text x="375" y="125" text-anchor="middle" class="s">Longest streak (days)</text>
+</svg>"""
+
+repos = gql(
+    """query($u:String!){user(login:$u){repositories(ownerAffiliations:OWNER,first:100,isFork:false){
+    nodes{languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name color}}}}}}}""",
+    {"u": USER},
+)["user"]["repositories"]["nodes"]
+totals = {}
+for r in repos:
+    for e in r["languages"]["edges"]:
+        n = e["node"]
+        t = totals.setdefault(n["name"], [0, n["color"] or "#8b949e"])
+        t[0] += e["size"]
+top = sorted(totals.items(), key=lambda kv: -kv[1][0])[:5]
+total = sum(v[0] for _, v in top) or 1
+bars, labels, x = "", "", 25
+for i, (lname, (size, color)) in enumerate(top):
+    w = 400 * size / total
+    bars += f'<rect x="{x:.1f}" y="55" width="{w:.1f}" height="10" fill="{color}"/>'
+    x += w
+    col, row = i % 2, i // 2
+    labels += (
+        f'<circle cx="{32 + col * 200}" cy="{92 + row * 24}" r="5" fill="{color}"/>'
+        f'<text x="{44 + col * 200}" y="{96 + row * 24}" class="l">{lname} {100 * size / total:.1f}%</text>'
+    )
+langs_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="450" height="190" viewBox="0 0 450 190">
+{STYLE}{FRAME}
+<text x="25" y="35" class="t">Top Languages</text>
+<clipPath id="c"><rect x="25" y="55" width="400" height="10" rx="5"/></clipPath>
+<g clip-path="url(#c)">{bars}</g>
+{labels}
+</svg>"""
+
+out_dir = os.path.dirname(OUT) or "."
+os.makedirs(out_dir, exist_ok=True)
 with open(OUT, "w", encoding="utf-8") as f:
     f.write(svg)
+with open(os.path.join(out_dir, "streak.svg"), "w", encoding="utf-8") as f:
+    f.write(streak_svg)
+with open(os.path.join(out_dir, "langs.svg"), "w", encoding="utf-8") as f:
+    f.write(langs_svg)
 print(f"commits={commits} private={private}")
