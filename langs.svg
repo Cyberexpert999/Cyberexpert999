@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="190" viewBox="0 0 450 190">
+<style>.t{font:600 18px 'Segoe UI',Ubuntu,sans-serif;fill:#58a6ff}.l{font:400 13px 'Segoe UI',Ubuntu,sans-serif;fill:#c9d1d9}.b{font:700 30px 'Segoe UI',Ubuntu,sans-serif;fill:#c9d1d9}.s{font:400 12px 'Segoe UI',Ubuntu,sans-serif;fill:#8b949e}</style><rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#30363d"/>
+<text x="25" y="35" class="t">Top Languages</text>
+<clipPath id="c"><rect x="25" y="55" width="400" height="10" rx="5"/></clipPath>
+<g clip-path="url(#c)"><rect x="25.0" y="55" width="121.0" height="10" fill="#3178c6"/><rect x="146.0" y="55" width="105.2" height="10" fill="#663399"/><rect x="251.2" y="55" width="78.5" height="10" fill="#f1e05a"/><rect x="329.8" y="55" width="67.4" height="10" fill="#e34c26"/><rect x="397.2" y="55" width="27.8" height="10" fill="#3572A5"/></g>
+<circle cx="32" cy="92" r="5" fill="#3178c6"/><text x="44" y="96" class="l">TypeScript 30.2%</text><circle cx="232" cy="92" r="5" fill="#663399"/><text x="244" y="96" class="l">CSS 26.3%</text><circle cx="32" cy="116" r="5" fill="#f1e05a"/><text x="44" y="120" class="l">JavaScript 19.6%</text><circle cx="232" cy="116" r="5" fill="#e34c26"/><text x="244" y="120" class="l">HTML 16.9%</text><circle cx="32" cy="140" r="5" fill="#3572A5"/><text x="44" y="144" class="l">Python 7.0%</text>
+</svg>
